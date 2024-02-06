@@ -4,7 +4,7 @@
     font-family:'Roboto', sans-serif;
 }
 
-button {
+.button_discord {
     height: 50px;
     width: 200px;
     border-color: #ffffff;
