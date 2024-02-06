@@ -3,3 +3,13 @@
 * {
     font-family:'Roboto', sans-serif;
 }
+
+button {
+    height: 50px;
+    width: 200px;
+    border-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #6a79ff;
+    cursor: pointer;
+}
