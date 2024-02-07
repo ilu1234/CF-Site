@@ -1,0 +1,10 @@
+
+.button_discord {
+    height: 50px;
+    width: 200px;
+    border-color: transparent;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #6a79ff;
+    cursor: pointer;
+}
