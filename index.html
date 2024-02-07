@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="home.js"></script>
+    <title>CrazyFun - Home</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="img/icon.jpg" alt="icon" class="icon">
+        <div class="nav-links">
+            <ul>
+                <li class="active"><a href="index.html">index</a></li>
+                <li><a href="download.html">Download</a></li>
+            </ul>
+        </div>
+        <img src="img/menu-btn.png" alt="menu" class="menu">
+    </nav>
+
+    <div>
+        <h1>Bienvenue sur le site de CrazyFun</h1>
+        <p>Voici le site de CrazyFun vous pourrez retrouvez tous ce qui ce passe sur le serveur</p>
+    </div>
+    
+    <div>
+        <h2>Voici comment aller sur le serveur:</h2>
+        <button onclick="discord()" class="button_discord">Rejoindre le serveur</button>
+    </div> 
+    <h2>Comming Soon...<h2>
+
+    <script>
+        const menu = document.querySelector(".menu")
+        const navLinks = document.querySelector(".nav-links")
+
+        menu.addEventListener('click', ()=> {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
