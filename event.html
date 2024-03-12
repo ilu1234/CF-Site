@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/event.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="js/event.js"></script>
+    <title>CrazyFun - Events</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="img/icon.jpg" alt="icon" class="icon">
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li class="active"><a href="event.html">Events</a></li>
+            </ul>
+        </div>
+    </nav>
+    <img src="img/menu-btn.png" alt="menu" class="menu">
+    <h1 class="gr">ici il y a toute les docs</h1>
+    <br>
+    <h2>ce qui dessinent les textures | c'est ce button</h2>
+    <form action="docs/textures.html">
+    <button class="texture">team texture</button>
+    </form>
+    <h2>ce qui font les models 3D | c'est ce button</h2>
+    <form action="docs/model.html">
+    <button class="model">team model 3D</button>
+    </form>
+    <h2>ce qui font le code | c'est ce button</h2>
+    <form action="docs/code.html">
+    <button class="code">team code</button>
+    </form>
+    <script>
+        const menu = document.querySelector(".menu")
+        const navLinks = document.querySelector(".nav-links")
+
+        menu.addEventListener('click', ()=> {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>

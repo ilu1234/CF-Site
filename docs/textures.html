@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/textures.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <title>CrazyFun - Team Texture</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="../img/icon.jpg" alt="icon" class="icon">
+        <div class="nav-links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../download.html">Download</a></li>
+                <li><a href="../video.html">Video</a></li>
+                <li class="active"><a href="../event.html">Events</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Les textures</h1>
+    <h1>------------</h1>
+    <br>
+    <h2>Les prérequis</h2>
+    <br>
+    <h3>1er prérequis un bon logiciel de dessin(je vous conseille paint.net)</h3>
+    <br>
+    <br>
+    <h2>Ce qu'il ne faut pas faire</h2>
+    <h3>il faut pas que tu fasse des dessins de plus ni de moins que 16px</h3>
+    <script>
+        const menu = document.querySelector(".menu")
+        const navLinks = document.querySelector(".nav-links")
+
+        menu.addEventListener('click', ()=> {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>

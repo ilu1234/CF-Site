@@ -1,0 +1,20 @@
+button {
+    height: 50px;
+    width: 200px;
+    border-color: transparent;
+    color: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.texture {
+    background-color: #00b7cf;
+}
+
+.model {
+    background-color: #ffffff;
+}
+
+.code {
+    background-color: #FF0000;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/model.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <title>CrazyFun - Team Model</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="../img/icon.jpg" alt="icon" class="icon">
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li class="active"><a href="event.html">Events</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Les models 3D</h1>
+    <h1>------------</h1>
+    <br>
+    <h2>Les prérequis</h2>
+    <br>
+    <h3>1er prérequis blockbench logiciel de model3D fait pour minecraft</h3>
+    <br>
+    <br>
+    <h2>Ce qu'il faut faire</h2>
+    <h3>il faut que tu utilise les textures de ceux qui font les textures et non pas en créé</h3>
+    <script>
+        const menu = document.querySelector(".menu")
+        const navLinks = document.querySelector(".nav-links")
+
+        menu.addEventListener('click', ()=> {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>

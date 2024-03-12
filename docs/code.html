@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/textures.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <title>CrazyFun - Team Code</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="../img/icon.jpg" alt="icon" class="icon">
+        <div class="nav-links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../download.html">Download</a></li>
+                <li><a href="../video.html">Video</a></li>
+                <li class="active"><a href="../event.html">Events</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Les textures</h1>
+    <h1>------------</h1>
+    <br>
+    <h2>Les prérequis</h2>
+    <br>
+    <h3>1er visual studio code</h3>
+    <br>
+    <h2>je vous conseille de consulter ce site pour le code</h2>
+    <a href="https://minecraft.fandom.com/wiki/Tutorials/Creating_a_data_pack">https://minecraft.fandom.com/wiki/Tutorials/Creating_a_data_pack</a>
+    <h2>si vous avez des question vous pouvez me les posez(contactez fxl/ilu1234)</h2>
+    <script>
+        const menu = document.querySelector(".menu")
+        const navLinks = document.querySelector(".nav-links")
+
+        menu.addEventListener('click', ()=> {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
